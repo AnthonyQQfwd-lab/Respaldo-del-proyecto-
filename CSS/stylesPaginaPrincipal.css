@@ -1,0 +1,95 @@
+.logo-navbar {
+    height: 50px;   
+    width: auto;
+}
+
+.panel-container {
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+.panel-img {
+    border-radius: 2%;
+    width: 100%;
+    max-width: 900px; 
+    height: auto; 
+    display: block;
+}
+
+.highlight {
+    color: #ff6a00; 
+}
+
+
+.plan-box {
+    position: relative;
+    background: white;
+    transition: 0.3s ease;
+}
+
+
+.plan-featured {
+    background: #2c2c2c;
+    color: white;
+}
+
+
+.plan-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f5a623;
+    color: black;
+    padding: 6px 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+
+.old-price {
+    text-decoration: line-through;
+    margin-bottom: 5px;
+}
+
+
+.disabled-feature {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
+.plan-box h4 {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.plan-box ul {
+    padding-left: 18px;
+    margin-top: 15px;
+}
+
+.plan-box ul li {
+    margin-bottom: 6px;
+}
+
+
+.imagenesGymContainer {
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+    height: fit-content;
+    width: fit-content;
+}
+
+.imagenesGym {
+    object-fit: cover;
+
+    border-radius: 10px 10px 0 0; 
+    
+}
+
+
+

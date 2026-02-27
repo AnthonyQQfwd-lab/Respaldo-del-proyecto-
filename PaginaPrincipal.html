@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home Page</title>
+        <!--Sesión #6  Proyecto programado 1-->
+
+        
+                            <!--GRUPO 6	Gimnasio-->     
+        <!--Obando Contreras Jose Fernando  y Quiang Quiros Anthony --> 
+        
+        <!-- Secciones de página Web Index  (Página inicial enlace a otras secciones del sitio)-->
+
+        <!--
+        Secciones: 
+            Servicios (Se describen todos los servicios que se ofrecen )JOSE
+            Contactenos ( Se muestra toda la información de contacto como telefonos - ubicación) JOSE
+            Galeria (Se debe mostra todas las fotografias más lindas que describien los servicios)
+            Registrase(Es una página que contiene un formulario para registrar los datos personales del cliente)
+        -->
+
+        <!--
+            Habilidades tecnologicas que debe implementar la página
+            -Sitio Web 100%   responsive   Bootstrap v5.3.3
+            -Implementar  al menos  una animación con JavaScript
+            -Implementar al menos una función  con JQuery jquery-3.7.1.min
+            -Implementar  al menos  un Carousel dentro de la página galeria con BootStrap
+        -->
+            <!--CDN para usar boostrap-->
+        <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!--vinculo al css -->
+        <link rel="stylesheet" href="CSS/stylesPaginaPrincipal.css">
+        <link rel="icon" type="image/png" href="Public/Favicon.png">
+    </head>
+    <body>
+        <!-- Navbar para la correcta navegacion del sitio web -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container">
+
+                <a class="navbar-brand d-flex align-items-center" href="#">
+                    <img src="Public/CodeForgeGYM.png"
+                        class="logo-navbar"
+                        alt="Logo">
+                </a>
+
+                <button class="navbar-toggler" type="button"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup">
+                <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav ms-auto">
+                        <a class="nav-link active" href="#">Home</a>
+                        <a class="nav-link" href="Galeria.html">Galeria</a>
+                        <a class="nav-link" href="Servicios.html">servicios</a>
+                        <a class="nav-link" href="contactenos.html">Contactenos</a>
+                        <button id="btnCerrarSesion">Cerrar sesion </button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+        
+        <div class="panel-container">
+            <img src="Public/PanelPromocional.png" alt="Panel principal" class="panel-img">
+        </div>
+
+        <div class="container-fluid text-center  p-3">
+            <h1>ELEGÍ TU MODO DE <span class="highlight">ENTRENAMIENTO</span> </h1>
+            <p>Seleccioná tu plan, optimizá tu rendimiento y entrená como un verdadero Programador PRO en CodeForge Gym.</p>
+        </div>
+
+        <div class="container my-5">
+            <div class="row justify-content-center">
+                
+                <div class="col-md-4">
+                    <div class="plan-box plan-featured p-4 border rounded">
+                        <div class="plan-badge">El más ventajoso</div>
+
+                        <h3>Plan SENIOR</h3>
+
+                        <p>Entrená en cualquiera de nuestros gimnasios en Costa Rica.</p>
+                        <p>DESDE</p>
+
+                        <p class="old-price">₡24.000+ IVA</p>
+
+                        <h4>₡0.00+ IVA*100% OFF</h4>
+
+                        <p>en el 1er mes, después ₡24.000+ IVA/mes</p>
+
+                        <h6>12 meses de fidelidad</h6>
+
+                        <div class="text-center mb-3">
+                            <button class="btn btn-warning w-100">
+                                Entrenar ahora
+                            </button>
+                        </div>
+
+                        <ul>
+                            <li>Área de cardio</li>
+                            <li>Área de peso libre e integrado</li>
+                            <li>Acceso a salón de clases dirigidas ilimitado*</li>
+                            <li>Lockers y duchas</li>
+                            <li>Acceso ilimitado a la zona Spa</li>
+                            <li>Invita hasta 5 amigos por mes gratis</li>
+                        </ul>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="plan-box p-4 border rounded">
+
+                        <h3>Plan MID</h3>
+
+                        <p>Entrena todo lo que quieras en tu unidad y paga menos</p>
+                        <p>DESDE</p>
+
+                        <p class="old-price">₡18.000+ IVA</p>
+
+                        <h4>₡0.00+ IVA*100% OFF</h4>
+
+                        <p>en el 1er mes, después ₡18.000+ IVA/mes</p>
+
+                        <h6>12 meses de fidelidad</h6>
+
+                        <div class="text-center mb-3">
+                            <button class="btn btn-warning w-100">
+                                Entrenar ahora
+                            </button>
+                        </div>
+
+                        <ul>
+                            <li>Área de cardio</li>
+                            <li>Área de peso libre e integrado</li>
+                            <li>Acceso a salón de clases dirigidas ilimitado*</li>
+                            <li>Lockers y duchas</li>
+                            <li><span class="disabled-feature">Acceso ilimitado a la zona Spa</span></li>
+                            <li><span class="disabled-feature">Invita hasta 5 amigos por mes gratis</span></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+
+                <div class="col-md-4">
+                    <div class="plan-box p-4 border rounded">
+
+                        <h3>Plan JUNIOR</h3>
+
+                        <p>Entrená cuando quieras en tu gimnasio de elección</p>
+                        <p>DESDE</p>
+
+                        <p class="old-price">₡20.000+ IVA</p>
+
+                        <h4>₡0.00+ IVA*100% OFF</h4>
+
+                        <p>en el 1er mes, después ₡20.00+ IVA/mes</p>
+
+                        <h6>sin fidelidad</h6>
+
+                        <div class="text-center mb-3">
+                            <button class="btn btn-warning w-100">
+                                Entrenar ahora
+                            </button>
+                        </div>
+
+                        <ul>
+                            <li>Área de cardio</li>
+                            <li>Área de peso libre e integrado</li>
+                            <li>Acceso a salón de clases dirigidas ilimitado*</li>
+                            <li>Lockers y duchas</li>
+                            <li><span class="disabled-feature">Acceso ilimitado a la zona Spa</span></li>
+                            <li><span class="disabled-feature">Invita hasta 5 amigos por mes gratis</span></li>
+                        </ul>
+
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <p class="text-center">*Los precios, tarifas, elementos de beneficios y condiciones promocionales pueden variar según el gimnasio elegido.</p>
+        </div>
+
+        <div class="container-fluid text-center  p-3">
+            <h1>
+                Viví la Experiencia CODEFORGE<br>
+                <span class="highlight">tecnología de punta y las mejores instalaciones</span>
+            </h1>
+            <br>
+            <div class="row justify-content-center g-5">
+
+                <div class="col-md-3">
+                    <div class="imagenesGymContainer">
+                        <img class="imagenesGym img-fluid" src="Public/imagenGym3.png" alt="">
+                        <h4>Equipo de última tecnologia</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="imagenesGymContainer">
+                        <img class="imagenesGym img-fluid" src="Public/ImagenGYm2.png" alt="">
+                        <h4>Zona de cardio</h4>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="imagenesGymContainer">
+                        <img class="imagenesGym img-fluid" src="Public/imagenGym1.png" alt="">
+                        <h4>Zona de spa</h4>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+        
+        <!--Script para que boostrap funcione -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!--Vonculo al js -->
+        <script src="JS/scriptsPaginaPrincipal.js"></script>
+    </body>
+</html>
