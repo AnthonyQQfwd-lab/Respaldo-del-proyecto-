@@ -81,6 +81,6 @@ function mostrarExitoYRedirigir() {
     toast.show();
 
     setTimeout(() => {
-        window.location.href = "IniciaSesion.html"; 
+        window.location.href = "index.html"; 
     }, 2000);
 }
